@@ -1,0 +1,96 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+  font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #222;
+  color: #fff;
+  padding: 15px 30px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+}
+.navbar a:hover {
+  color: #00aaff;
+}
+
+/* Sections */
+section {
+  padding: 100px 20px;
+  min-height: 100vh;
+}
+.home {
+  background: linear-gradient(to right, #00aaff, #6a11cb);
+  color: #fff;
+  text-align: center;
+}
+.home .btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: #fff;
+  color: #00aaff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* Projects */
+.project-list {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.project-card {
+  background: #f4f4f4;
+  padding: 20px;
+  border-radius: 10px;
+  flex: 1 1 calc(33% - 20px);
+}
+
+/* Contact */
+.contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 400px;
+}
+.contact input, .contact textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.contact button {
+  padding: 10px;
+  background: #00aaff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+.contact button:hover {
+  background: #0077cc;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 20px;
+  background: #222;
+  color: #fff;
+}
