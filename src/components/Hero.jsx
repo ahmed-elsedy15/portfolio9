@@ -13,8 +13,8 @@ export default function Hero() {
           responsive, and user-friendly websites using React, JavaScript, and
           CSS.
         </p>
-        <a href="/cv.pdf" className="btn" download>
-          Download CV
+          <a href="/CV2.pdf" target="_blank" rel="noopener noreferrer" className="btn">
+          View CV
         </a>
       </div>
 

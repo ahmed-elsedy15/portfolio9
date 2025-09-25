@@ -5,23 +5,16 @@ export default function Projects() {
   const projects = [
     {
       title: "E-commerce Website",
-      description: "A modern e-commerce website built with React and Node.js.",
-      image: "/images/project1.jpg",
-      link: "https://github.com/username/ecommerce"
+      description: "A modern e-commerce website built with React (Vite), styled with CSS, and integrated with a Dummy JSON API.",
+      image: "img/pro1.jpg",
+      link: "https://ahmed-elsedy15.github.io/e-commerce/"
     },
     {
       title: "Portfolio Website",
-      description: "My personal portfolio built with React and CSS.",
-      image: "/images/project2.jpg",
-      link: "https://github.com/username/portfolio"
+      description: "My personal portfolio built with React Vite and CSS.",
+      image: "img/bro2.jpg",
+      link: "https://ahmed-elsedy15.github.io/portfolio9/"
     },
-    {
-      title: "Car Rental System",
-      description: "A car rental management system using PHP & MySQL.",
-      image: "/images/project3.jpg",
-      link: "https://github.com/username/car-rental"
-    }
-  
   ];
 
   return (
