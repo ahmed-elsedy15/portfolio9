@@ -18,10 +18,6 @@ export default function Contact() {
             <p>ahmed1522003aa@gmail.com</p>
           </div>
           <div className="contact-card">
-            <div className="icon-circle location"><FaMapMarkerAlt /></div>
-            <p>Mansoura, Egypt</p>
-          </div>
-          <div className="contact-card">
             <div className="icon-circle linkedin"><FaLinkedin /></div>
             <a href="https://www.linkedin.com/in/ahmed-elsesy-b57233245?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank">linkedin.com/in/ahmed-elsesy</a>
           </div>

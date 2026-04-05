@@ -13,15 +13,16 @@ export default function Hero() {
           responsive, and user-friendly websites using React, JavaScript, and
           CSS.
         </p>
-          <a href="CV2.pdf" target="_blank" rel="noopener noreferrer" className="btn">
+        <a href="/portfolio9/Ahmed Elshahat - Front-end Developer.pdf" target="_blank" rel="noopener noreferrer" className="btn">
           View CV
         </a>
+
       </div>
 
       <div className="hero-img">
         <img src="img/img33.png" alt="profile" />
       </div>
-      
+
     </section>
   );
 }
