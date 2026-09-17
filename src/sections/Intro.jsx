@@ -98,7 +98,7 @@ export default function Intro() {
                 {ui.contactMe}
               </Button>
               <Button
-                href="/Ahmed_Elshahat_CV_Frontend_Developer.pdf"
+                href={`${import.meta.env.BASE_URL}Ahmed_Elshahat_CV_Frontend_Developer.pdf`}
                 variant="ghost"
                 icon={Download}
                 download
