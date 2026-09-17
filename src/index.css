@@ -28,6 +28,18 @@
   --font-sans: "Inter", "Tajawal", system-ui, sans-serif;
 }
 
+/* Light Mode */
+[data-theme="light"] {
+  --base: #f8fafc;
+  --surface: #ffffff;
+  --surface2: #f1f5f9;
+  --line: #e2e8f0;
+  --ink: #0f172a;
+  --muted: #64748b;
+  --indigo: #4f46e5;
+  --cyan: #0891b2;
+}
+
 /* باقي الملف زي ما هو من غير أي تغيير */
 
 html[dir="rtl"] {
