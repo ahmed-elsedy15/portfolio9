@@ -1,5 +1,19 @@
 @import "tailwindcss";
 
+@theme {
+  --color-base: var(--base);
+  --color-surface: var(--surface);
+  --color-surface2: var(--surface2);
+  --color-line: var(--line);
+  --color-ink: var(--ink);
+  --color-muted: var(--muted);
+  --color-indigo: var(--indigo);
+  --color-cyan: var(--cyan);
+
+  --font-display: var(--font-display);
+  --font-sans: var(--font-sans);
+}
+
 :root {
   --base: #0a0b10;
   --surface: #12141c;
@@ -14,16 +28,7 @@
   --font-sans: "Inter", "Tajawal", system-ui, sans-serif;
 }
 
-[data-theme="light"] {
-  --base: #f7f7fb;
-  --surface: #ffffff;
-  --surface2: #f0f1f6;
-  --line: #dfe1ea;
-  --ink: #14151c;
-  --muted: #62667a;
-  --indigo: #5b52e6;
-  --cyan: #189b8f;
-}
+/* باقي الملف زي ما هو من غير أي تغيير */
 
 html[dir="rtl"] {
   --font-display: "Tajawal", system-ui, sans-serif;
