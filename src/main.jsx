@@ -1,13 +1,13 @@
-import React from "react";
-import ReactDOM from "react-dom/client";
-import App from "./App.jsx";
-import { AppSettingsProvider } from "./context/AppSettingsContext.jsx";
-import "./index.css";
+import { StrictMode } from 'react'
+import { createRoot } from 'react-dom/client'
+import { LangProvider } from './i18n'
+import App from './App'
+import './styles.css'
 
-ReactDOM.createRoot(document.getElementById("root")).render(
-  <React.StrictMode>
-    <AppSettingsProvider>
+createRoot(document.getElementById('root')).render(
+  <StrictMode>
+    <LangProvider>
       <App />
-    </AppSettingsProvider>
-  </React.StrictMode>
-);
+    </LangProvider>
+  </StrictMode>
+)
